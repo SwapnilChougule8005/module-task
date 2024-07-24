@@ -4,7 +4,13 @@
   "description": "",
   "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified swapnil\" && exit 1",
+    "start": "node App.js",
+    "dev": "nodemon App.js",
+    "build": "tsc",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "deploy": "pm2 deploy ecosystem.config.js"
   },
   "keywords": [],
   "author": "",
